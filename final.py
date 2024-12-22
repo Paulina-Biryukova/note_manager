@@ -12,6 +12,5 @@ for i in range(3):
     note['titles'].append(title)
 
 print('\nСобранная информация о заметке:')
-print()
 for key, value in note.items():
     print(f'{key.capitalize()}: {value}')
