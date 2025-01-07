@@ -19,6 +19,6 @@ while True:
 print('\nСобранная информация о заметке:')
 for key, value in note.items():
     if key == 'titles':
-        print(f"{key.capitalize()}:\n{'\n'.join(value)}")  # Выводим все заголовки с новой строки
+        print(f'{key.capitalize()}:\n{'\n'.join(value)}')  # Выводим все заголовки с новой строки
     else:
-        print(f"{key.capitalize()}: {value}")
+        print(f'{key.capitalize()}: {value}')
